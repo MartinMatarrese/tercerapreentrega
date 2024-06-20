@@ -1,0 +1,13 @@
+const cuerpo = document.body
+const cabeza = document.getElementById('header');
+const navegar = document.createElement('navbar');
+const nav = document.createElement('nav');
+const ul = document.createElement('ul');
+const links = ["INDEX", "CONTACTO"];
+const footer = document.getElementsByTagName('footer');
+const fecha = new Date().toLocaleDateString();
+const parrafoFooter = document.createElement('div');
+const h1 = document.getElementById('h1');
+const redes = document.getElementById('redes');
+const div1 = document.createElement('div');
+const div2 =document.createElement('div');
